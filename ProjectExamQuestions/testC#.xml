@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Test>
+  <Question>
+    <Text>C# class can inherit multiple ________?</Text>
+    <answer>1. Class</answer>
+    <answer-Right>2. Interface</answer-Right>
+    <answer>3. Abstract class</answer>
+    <answer>4. Static class</answer>
+  </Question>
+  <Question>
+    <Text>Which of the followings are value types in C#?</Text>
+    <answer>1. Int32</answer>
+    <answer>2. Double</answer>
+    <answer>3. Decimal</answer>
+    <answer-Right>4. All of the above</answer-Right>
+  </Question>
+  <Question>
+    <Text>What is Nullable type?</Text>
+    <answer-Right>1. It allows assignment of null to reference type.</answer-Right>
+    <answer>2. It allows assignment of null to value type.</answer>
+    <answer>3. It allows assignment of null to static class.</answer>
+    <answer>4. None of the above.</answer>
+  </Question>
+  <Question>
+    <Text>Struct is a _____?</Text>
+    <answer>1. Reference type</answer>
+    <answer-Right>2. Value type</answer-Right>
+    <answer>3. Class type</answer>
+    <answer>4. String type</answer>
+  </Question>
+  <Question>
+    <Text>10 &gt; 9 ? “10 is greater than 9” : “9 is greater than 10” is an example of _______?</Text>
+    <answer>1. Ternary operator</answer>
+    <answer-Right>2. Conditional operator</answer-Right>
+    <answer>3. Greater than operator</answer>
+    <answer>4. Inverse operator</answer>
+  </Question>
+  <Question>
+    <Text>Which of the following datatype can be used with enum?</Text>
+    <answer>1. Int</answer>
+    <answer>2. String</answer>
+    <answer>3. Boolean</answer>
+    <answer-Right>4. All of the above</answer-Right>
+  </Question>
+  <Question>
+    <Text>If s1 and s2 are references to two strings, then which of the following is the correct way to compare the two references ?</Text>
+    <answer>1. s1 = s2</answer>
+    <answer>2. s1 == s2</answer>
+    <answer>3. strcmp(s1, s2)</answer>
+    <answer-Right>4. s1.Equals(s2)</answer-Right>
+  </Question>
+  <Question>
+    <Text>String data type is ______?</Text>
+    <answer-Right>1. Mutable</answer-Right>
+    <answer>2. Immutable</answer>
+    <answer>3. Static</answer>
+    <answer>4. Value type</answer>
+  </Question>
+  <Question>
+    <Text>An array in C# starts with _____ index?</Text>
+    <answer>1. One</answer>
+    <answer-Right>2. Zero</answer-Right>
+    <answer>3. -1</answer>
+    <answer>4. None of the above</answer>
+  </Question>
+  <Question>
+    <Text>Which of the following is right way of declaring an array?</Text>
+    <answer>1. Int[] intArray = new int[];</answer>
+    <answer>2. Int intArray[] = new int[5];</answer>
+    <answer-Right>3. Int[] intArray = new int[5];</answer-Right>
+    <answer>4. Int[] intArray = new int[]{1, 2, 3, 4, 5};</answer>
+  </Question>
+  <Question>
+    <Text>Which of the following is true for ReadOnly variables?</Text>
+    <answer-Right>1. Value will be assigned at runtime.</answer-Right>
+    <answer>2. Value will be assigned at compile time.</answer>
+    <answer>3. Value will be assigned when it accessed first time</answer>
+    <answer>4. None of the above</answer>
+  </Question>
+  <Question>
+    <Text>Which of the following statement is true?</Text>
+    <answer>1. An argument passed to a ref parameter need not be initialized first.</answer>
+    <answer>2. Variables passed as out arguments need to be initialized prior to being passed.</answer>
+    <answer-Right>3. Argument that uses params keyword must be the last argument of variable argument list of a method.</answer-Right>
+    <answer>4. To use a ref parameter only the calling method must explicitly use the ref keyword.</answer>
+  </Question>
+  <Question>
+    <Text>Which of the following is the necessary condition for implementing delegates?</Text>
+    <answer-Right>1. Class declaration</answer-Right>
+    <answer>2. Inheritance</answer>
+    <answer>3. Run-time Polymorphism</answer>
+    <answer>4. Exceptions</answer>
+  </Question>
+  <Question>
+    <Text>Assume class B is inherited from class A. Which of the following statements is correct about construction of an object of class B ?</Text>
+    <answer-Right>1. While creating the object firstly the constructor of class A will be called followed by constructor of class B.</answer-Right>
+    <answer>2. The constructor of only class B will be called.</answer>
+    <answer>3. While creating the object firstly the constructor of class B will be called followed by constructor of class A.</answer>
+    <answer>4. The order of calling constructors depends upon whether constructors in class A and class B are private or public.</answer>
+  </Question>
+  <Question>
+    <Text>Which of the following statements is incorrect about delegate?</Text>
+    <answer>1. Delegates are object oriented.</answer>
+    <answer>2. Delegates are type-safe.</answer>
+    <answer>3. Delegates serve the same purpose as function pointers in C and pointers to member function operators in C++</answer>
+    <answer-Right>4. Only one method can be called using a delegate.</answer-Right>
+  </Question>
+  <Question>
+    <Text>Which of the following statements are correct about Inheritance in C#.NET?</Text>
+    <answer>1. Inheritance cannot suppress the base class functionality.</answer>
+    <answer-Right>2. A derived class may not be able to access all the base class data.</answer-Right>
+    <answer>3. Inheritance cannot extend the base class functionality.</answer>
+    <answer>4. None of the above</answer>
+  </Question>
+  <Question>
+    <Text>Which of the following CANNOT be used as an underlying datatype for an enum in C#.NET?</Text>
+    <answer>1. byte</answer>
+    <answer>2. short</answer>
+    <answer-Right>3. float</answer-Right>
+    <answer>4. int</answer>
+  </Question>
+  <Question>
+    <Text>Which of the following statements is correct about an enum used inC#.NET?</Text>
+    <answer>1. By default the first enumerator has the value equal to the number of elements present in the list?</answer>
+    <answer>2. The value of each successive enumerator is decreased by 1.</answer>
+    <answer>3. An enumerator contains white space in its name.</answer>
+    <answer-Right>4. A variable cannot be assigned to an enum element.</answer-Right>
+  </Question>
+  <Question>
+    <Text>Which of the following statements is valid about advantages of generics?</Text>
+    <answer>1. Generics shift the burden of type safety to the programmer rather than compiler.</answer>
+    <answer-Right>2. Generics provide type safety without the overhead of multiple implementations.</answer-Right>
+    <answer>3. Generics eliminate the possibility of run-time errors.</answer>
+    <answer>4. None of the above.</answer>
+  </Question>
+  <Question>
+    <Text>Which of the following statements is valid about generics in .NET Framework?</Text>
+    <answer>1. We can create a generic class, however, we cannot create a generic interface in C#.NET.</answer>
+    <answer>2. Generics delegates are not allowed in C#.NET.</answer>
+    <answer-Right>3. Generics are useful in collection classes in .NET\nframework.</answer-Right>
+    <answer>4. None of the above.</answer>
+  </Question>
+  <Question>
+    <Text>Which of the following statements is correct?</Text>
+    <answer>1. Only one object can be created from an abstract class.</answer>
+    <answer>2. By default methods are virtual.</answer>
+    <answer-Right>3. If a derived class does not provide its own version of virtual method then the one in the base class is used.</answer-Right>
+    <answer>4. If the method in the derived class is not preceded by override keywords,  the compiler will issue a warning and the method will behave as if the override keyword were present.</answer>
+  </Question>
+  <Question>
+    <Text>Which of the following modifier is used when a virtual method is redefined by a derived class?</Text>
+    <answer-Right>1. override</answer-Right>
+    <answer>2. overridable</answer>
+    <answer>3. virtual</answer>
+    <answer>4. base</answer>
+  </Question>
+  <Question>
+    <Text>Which of the following statement is correct about the Stack collection?</Text>
+    <answer-Right>1. All elements in the Stack collection can be accessed using an enumerator.</answer-Right>
+    <answer>2. It is used to maintain a FIFO list.</answer>
+    <answer>3. All elements stored in a Stack collection must be of similar type.</answer>
+    <answer>4. None of the above.</answer>
+  </Question>
+  <Question>
+    <Text>The [Serializable()] attribute gets inspected at?</Text>
+    <answer>1. Compile-time</answer>
+    <answer-Right>2. Run-time</answer-Right>
+    <answer>3. Design-time</answer>
+    <answer>4. None of the above</answer>
+  </Question>
+  <Question>
+    <Text>Which of the following statement is correct about the this reference?</Text>
+    <answer>1. this reference can be modified in the instance member function of a class.</answer>
+    <answer-Right>2. Static functions of a class never receive the this reference.</answer-Right>
+    <answer>3. this reference continues to exist even after control returns from an instance member function.</answer>
+    <answer>4. All of the above.</answer>
+  </Question>
+  <Question>
+    <Text>Which of the following is true for ReadOnly variables?</Text>
+    <answer-Right>1. Value will be assigned at runtime.</answer-Right>
+    <answer>2. Value will be assigned at compile time.</answer>
+    <answer>3. Value will be assigned when it accessed first time</answer>
+    <answer>4. None of the above</answer>
+  </Question>
+  <Question>
+    <Text>Which of the following preprocessor directive defines a sequence of characters as symbol in C#?</Text>
+    <answer-Right>1. define</answer-Right>
+    <answer>2. undef</answer>
+    <answer>3. region</answer>
+    <answer>4. endregion</answer>
+  </Question>
+  <Question>
+    <Text>Which of the following is the correct about class destructor?</Text>
+    <answer>1. A destructor is a special member function of a class that is executed whenever an object of its class goes out of scope.</answer>
+    <answer>2. A destructor has exactly the same name as that of the class with a prefixed tilde (~) and it can neither return a value nor can it take any parameters.</answer>
+    <answer-Right>3. Both of the above.</answer-Right>
+    <answer>4. None of the above.</answer>
+  </Question>
+  <Question>
+    <Text>Which of the following access specifier in C# allows a class to hide its member variables and member functions from other class objects and functions, except a child class within the same application?</Text>
+    <answer-Right>1. Protected Internal</answer-Right>
+    <answer>2. Private</answer>
+    <answer>3. Protected</answer>
+    <answer>4. Internal</answer>
+  </Question>
+  <Question>
+    <Text>Which of the following is correct about C#?</Text>
+    <answer>1. C# is a modern, general-purpose, object-oriented programming language developed by Microsoft.</answer>
+    <answer>2. C# was developed by Anders Hejlsberg and his team during the development of .Net Framework.</answer>
+    <answer>3. C# is designed for Common Language Infrastructure (CLI).</answer>
+    <answer-Right>4. All of the above.</answer-Right>
+  </Question>
+</Test>
