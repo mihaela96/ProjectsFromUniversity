@@ -1,0 +1,10 @@
+stack
+1 13 7 
+list
+8 7 5 4 
+queue
+47 11 
+stack
+96 95 87 
+list
+1 8 9 3 
